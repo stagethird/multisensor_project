@@ -28,9 +28,9 @@ purposes.
 ```mermaid
 flowchart LR
   A[Arduino event] --> B[LED / Buzzer] & C[RasPi]
-  C --> D{"Multiple
+  C --> D{"`Multiple
 Events
-this hour?"}
+this hour?`"}
   D -->|Yes| E[Ignore]
   D -->|No| F[Send Email]
 ```
